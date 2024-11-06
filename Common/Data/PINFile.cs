@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using KartLauncher.Common.IO;
 using KartLauncher.Common.KartRider.Common.Security;
-using KartLauncher.Common.KartRider.IO;
 
-namespace KartLauncher.Common.KartRider.Common.Data
+namespace KartLauncher.Common.Common.Data
 {
     public class PINFile
     {

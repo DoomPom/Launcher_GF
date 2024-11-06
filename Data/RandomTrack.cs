@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Xml;
-using KartLauncher.Common.KartRider.Common.Utilities;
 using KartLauncher.Data.KartSpec;
 using KartLauncher.Data.ExcData;
+using KartLauncher.Common.Common.Utilities;
 
 namespace KartLauncher.Data
 {

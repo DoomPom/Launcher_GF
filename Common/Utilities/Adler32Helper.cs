@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace KartLauncher.Common.KartRider.Common.Utilities
+namespace KartLauncher.Common.Common.Utilities
 {
     public class Adler32Helper
     {

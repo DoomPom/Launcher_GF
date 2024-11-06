@@ -1,6 +1,6 @@
 using System;
 
-namespace KartLauncher.Common.KartRider.Common.Utilities
+namespace KartLauncher.Common.Common.Utilities
 {
     public sealed class ByteArraySegment
     {

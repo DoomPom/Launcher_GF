@@ -1,5 +1,5 @@
 ﻿using System;
-using KartLauncher.Common.KartRider.IO;
+using KartLauncher.Common.IO;
 using KartLauncher.Data.ExcData;
 using KartLauncher.Data.Server;
 

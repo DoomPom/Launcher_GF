@@ -1,7 +1,7 @@
 using KartLauncher.Common;
+using KartLauncher.Common.Common.Utilities;
+using KartLauncher.Common.IO;
 using KartLauncher.Common.KartRider.Common.Security;
-using KartLauncher.Common.KartRider.Common.Utilities;
-using KartLauncher.Common.KartRider.IO;
 using System;
 using System.Net;
 using System.Net.Sockets;

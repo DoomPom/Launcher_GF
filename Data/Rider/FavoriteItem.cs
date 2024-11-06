@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 using System.Linq;
-using KartLauncher.Common.KartRider.IO;
 using KartLauncher.Data.Server;
+using KartLauncher.Common.IO;
 
 namespace KartLauncher.Data.Rider
 {

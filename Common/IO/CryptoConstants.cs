@@ -1,6 +1,6 @@
 using System;
 
-namespace KartLauncher.Common.KartRider.IO
+namespace KartLauncher.Common.IO
 {
     public class CryptoConstants
     {

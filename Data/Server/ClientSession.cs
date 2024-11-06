@@ -1,8 +1,8 @@
 ﻿using KartLauncher;
 using KartLauncher.Common;
+using KartLauncher.Common.Common.Utilities;
+using KartLauncher.Common.IO;
 using KartLauncher.Common.KartRider.Common.Network;
-using KartLauncher.Common.KartRider.Common.Utilities;
-using KartLauncher.Common.KartRider.IO;
 using KartLauncher.Data;
 using KartLauncher.Data.ExcData;
 using KartLauncher.Data.KartSpec;

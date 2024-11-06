@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Xml;
-using KartLauncher.Common.KartRider.IO;
+using KartLauncher.Common.IO;
 using KartLauncher.Data.Server;
 
 namespace KartLauncher.Data.Rider

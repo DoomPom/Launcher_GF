@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace KartLauncher.Common.KartRider.Common.Utilities
+namespace KartLauncher.Common.Common.Utilities
 {
     public static class NativeMethods
     {

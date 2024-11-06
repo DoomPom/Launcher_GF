@@ -47,28 +47,13 @@ namespace KartLauncher.Data.Set_Data
 
         public static void Check_PreventItem()
         {
-            if (PreventItem_Use == 0)
-            {
-                Program.PreventItem = false;
-            }
-            else
-            {
-                Program.PreventItem = true;
-            }
+
+            Program.PreventItem = PreventItem_Use != 0;
         }
 
         public static void Check_SpeedPatch()
         {
-            if (SpeedPatch_Use == 0)
-            {
-                Program.SpeedPatch = false;
-                Program.LauncherDlg.Text = "Launcher";
-            }
-            else
-            {
-                Program.SpeedPatch = true;
-                Program.LauncherDlg.Text = "Launcher (속도 패치)";
-            }
+             Program.SpeedPatch = SpeedPatch_Use != 0;
         }
 
         public static void Load_ALL()

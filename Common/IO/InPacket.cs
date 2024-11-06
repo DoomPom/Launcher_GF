@@ -1,9 +1,8 @@
-using KartLauncher.Common.KartNew.Utilities;
 using System;
 using System.Net;
 using System.Text;
 
-namespace KartLauncher.Common.KartRider.IO
+namespace KartLauncher.Common.IO
 {
     public class InPacket : PacketBase
     {
@@ -196,25 +195,13 @@ namespace KartLauncher.Common.KartRider.IO
 
         public DateTime ReadTime()
         {
-            DateTime dateTime;
-            ushort num = ReadUShort();
-            ushort num1 = ReadUShort();
-            if (num != 65535)
+
+            KartDateTime dateTime = new KartDateTime
             {
-                uint num2 = (uint)(num * 21600 + num1);
-                int num3 = (int)(num2 / 21600);
-                int year = TimeUtil.GetYear(ref num3) + 1900;
-                int month = TimeUtil.GetMonth(ref num3, TimeUtil.IsLeapYear(year)) + 1;
-                int num4 = (int)(num2 % 21600 / 900);
-                int num5 = (int)(num2 % 21600 % 900 / 15);
-                int num6 = (int)(4 * (num2 % 21600 % 900 % 15));
-                dateTime = new DateTime(year, month, num3, num4, num5, num6);
-            }
-            else
-            {
-                dateTime = DateTime.MinValue;
-            }
-            return dateTime;
+                Days = ReadUShort(),
+                Seconds = ReadUShort()
+            };
+            return dateTime.ToDateTime();
         }
 
         public void Skip(int count)

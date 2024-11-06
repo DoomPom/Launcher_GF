@@ -1,9 +1,9 @@
 ﻿using System;
 using KartLauncher.Data;
 using KartLauncher.Data.ExcData;
-using KartLauncher.Common.KartRider.IO;
 using KartLauncher.Data.Set_Data;
 using KartLauncher.Data.Server;
+using KartLauncher.Common.IO;
 
 namespace KartLauncher.Data.KartSpec
 {

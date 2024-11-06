@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace KartLauncher.Common.KartRider.IO
+namespace KartLauncher.Common.IO
 {
     public abstract class PacketBase : IDisposable
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using KartLauncher.Common.KartRider.IO;
+using KartLauncher.Common.IO;
 
-namespace KartLauncher.Common.KartRider.Common.Data
+namespace KartLauncher.Common.Common.Data
 {
     public class BmlObject
     {

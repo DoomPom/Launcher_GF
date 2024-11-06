@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using KartLauncher.Common.KartRider.IO;
+using KartLauncher.Common.IO;
 using KartLauncher.Data.Server;
 
 namespace KartLauncher.Data.ExcData

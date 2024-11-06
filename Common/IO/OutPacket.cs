@@ -1,12 +1,11 @@
-using KartLauncher.Common.KartNew.Utilities;
-using KartLauncher.Common.KartRider.Common.Utilities;
+using KartLauncher.Common.Common.Utilities;
 using System;
 using System.Globalization;
 using System.IO;
 using System.Net;
 using System.Text;
 
-namespace KartLauncher.Common.KartRider.IO
+namespace KartLauncher.Common.IO
 {
     public class OutPacket : PacketBase, IDisposable
     {
@@ -224,9 +223,9 @@ namespace KartLauncher.Common.KartRider.IO
         {
             if (ticks != -1)
             {
-                DateTime dateTime = new DateTime(ticks);
-                WriteShort((short)(TimeUtil.GetDays(dateTime) - 1));
-                WriteShort((short)(dateTime.Second / 4 + dateTime.Minute * 15 + dateTime.Hour * 900));
+                KartDateTime dateTime = new KartDateTime(ticks);
+                WriteUShort(dateTime.Days);
+                WriteUShort(dateTime.Seconds);
             }
             else
             {

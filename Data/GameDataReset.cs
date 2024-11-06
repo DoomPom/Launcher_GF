@@ -159,7 +159,7 @@ namespace KartLauncher.Data
 
         public static void DataReset()
         {
-            Launcher.OpenGetItem = false;
+            //Launcher.OpenGetItem = false;
             if (SetRider.Lucci > SessionGroup.LucciMax)
             {
                 SetRider.Lucci = SessionGroup.LucciMax;

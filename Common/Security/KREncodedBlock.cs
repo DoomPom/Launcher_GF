@@ -1,5 +1,5 @@
-using KartLauncher.Common.KartRider.Common.Utilities;
-using KartLauncher.Common.KartRider.IO;
+using KartLauncher.Common.Common.Utilities;
+using KartLauncher.Common.IO;
 using System;
 using System.IO;
 using System.IO.Compression;
