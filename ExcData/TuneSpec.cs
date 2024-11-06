@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace KartLauncher.Data.ExcData
+namespace KartLauncher.ExcData
 {
     public class TuneSpec
     {

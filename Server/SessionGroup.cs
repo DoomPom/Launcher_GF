@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Sockets;
 
-namespace KartLauncher.Data.Server
+namespace KartLauncher.Server
 {
     public class SessionGroup
     {

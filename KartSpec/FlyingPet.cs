@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml;
 
-namespace KartLauncher.Data.KartSpec
+namespace KartLauncher.KartSpec
 {
     public class FlyingPet
     {

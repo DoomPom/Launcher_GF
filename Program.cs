@@ -1,7 +1,5 @@
-using KartLauncher.Data.ExcData;
 using KartLauncher.Data;
 using KartLauncher.Data.Forms;
-using KartLauncher.Data.Server;
 using KartLauncher.Data.Set_Data;
 using KartLauncher.Properties;
 using System;
@@ -13,6 +11,8 @@ using System.Windows.Forms;
 using System.Xml;
 using Microsoft.Win32;
 using KartLauncher.Common.Common.Data;
+using KartLauncher.ExcData;
+using KartLauncher.Server;
 
 namespace KartLauncher
 {

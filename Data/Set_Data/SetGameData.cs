@@ -2,7 +2,7 @@
 using System.IO;
 using KartLauncher.Common;
 using KartLauncher.Data;
-using KartLauncher.Data.KartSpec;
+using KartLauncher.KartSpec;
 
 namespace KartLauncher.Data.Set_Data
 {

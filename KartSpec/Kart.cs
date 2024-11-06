@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KartLauncher.Data.KartSpec
+namespace KartLauncher.KartSpec
 {
     public class Kart
     {

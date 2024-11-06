@@ -1,13 +1,12 @@
-﻿using KartLauncher;
-using KartLauncher.Common;
+﻿using KartLauncher.Common;
 using KartLauncher.Common.Common.Utilities;
 using KartLauncher.Common.IO;
 using KartLauncher.Common.KartRider.Common.Network;
 using KartLauncher.Data;
-using KartLauncher.Data.ExcData;
-using KartLauncher.Data.KartSpec;
-using KartLauncher.Data.Rider;
 using KartLauncher.Data.Set_Data;
+using KartLauncher.ExcData;
+using KartLauncher.KartSpec;
+using KartLauncher.Rider;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +16,7 @@ using System.Reflection;
 using System.Text;
 using System.Xml;
 
-namespace KartLauncher.Data.Server
+namespace KartLauncher.Server
 {
     public class ClientSession : Session
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using KartLauncher.Data;
-using KartLauncher.Data.KartSpec;
+using KartLauncher.KartSpec;
 
-namespace KartLauncher.Data.ExcData
+namespace KartLauncher.ExcData
 {
     public class SpeedType
     {

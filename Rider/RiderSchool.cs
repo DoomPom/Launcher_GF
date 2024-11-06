@@ -1,9 +1,9 @@
 ﻿using System;
 using KartLauncher.Common.IO;
-using KartLauncher.Data.ExcData;
-using KartLauncher.Data.Server;
+using KartLauncher.ExcData;
+using KartLauncher.Server;
 
-namespace KartLauncher.Data.Rider
+namespace KartLauncher.Rider
 {
     public static class RiderSchool
     {

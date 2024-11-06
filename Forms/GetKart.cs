@@ -3,9 +3,9 @@ using System.Threading;
 using System.IO;
 using System.Windows.Forms;
 using System.Xml;
-using KartLauncher.Data.Server;
-using KartLauncher.Data.ExcData;
 using KartLauncher.Common.IO;
+using KartLauncher.ExcData;
+using KartLauncher.Server;
 
 namespace KartLauncher.Data.Forms
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using KartLauncher.Data.Server;
+using KartLauncher.Server;
 
 namespace KartLauncher.Data.Set_Data
 {

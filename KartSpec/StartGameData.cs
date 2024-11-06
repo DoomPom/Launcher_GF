@@ -1,11 +1,11 @@
 ﻿using System;
 using KartLauncher.Data;
-using KartLauncher.Data.ExcData;
 using KartLauncher.Data.Set_Data;
-using KartLauncher.Data.Server;
 using KartLauncher.Common.IO;
+using KartLauncher.ExcData;
+using KartLauncher.Server;
 
-namespace KartLauncher.Data.KartSpec
+namespace KartLauncher.KartSpec
 {
     public class StartGameData
     {

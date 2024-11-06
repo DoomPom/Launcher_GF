@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Xml;
 using KartLauncher.Common.IO;
-using KartLauncher.Data.Server;
+using KartLauncher.Server;
 
-namespace KartLauncher.Data.ExcData
+namespace KartLauncher.ExcData
 {
     public static class KartExcData
     {

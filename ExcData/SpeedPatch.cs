@@ -1,6 +1,4 @@
-﻿using KartLauncher;
-
-namespace KartLauncher.Data.ExcData
+﻿namespace KartLauncher.ExcData
 {
     public class SpeedPatch
     {

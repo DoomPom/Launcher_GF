@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using KartLauncher;
 using KartLauncher.Data.Set_Data;
-using KartLauncher.Data.Server;
-using KartLauncher.Data.ExcData;
 using KartLauncher.Common.IO;
+using KartLauncher.ExcData;
+using KartLauncher.Server;
 
-namespace KartLauncher.Data.Rider
+namespace KartLauncher.Rider
 {
     public static class NewRider
     {

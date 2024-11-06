@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Xml;
 using KartLauncher.Common.IO;
-using KartLauncher.Data.Server;
+using KartLauncher.Server;
 
-namespace KartLauncher.Data.Rider
+namespace KartLauncher.Rider
 {
     public static class Emblem
     {
