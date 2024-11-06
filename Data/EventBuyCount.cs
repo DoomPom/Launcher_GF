@@ -1,5 +1,4 @@
-﻿using System;
-using KartLauncher.Common.IO;
+﻿using KartLauncher.Common.IO;
 using KartLauncher.Data.Server;
 
 namespace KartLauncher.Data

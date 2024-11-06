@@ -147,7 +147,7 @@ namespace KartLauncher
                 }).Start();
             }
         }
-
+        #region МгдиЪ§Он
         public static void Load_KartData()
         {
             if (!File.Exists(@"Profile\KartSpec.xml"))
@@ -303,5 +303,6 @@ namespace KartLauncher
                 }
             }
         }
+        #endregion
     }
 }

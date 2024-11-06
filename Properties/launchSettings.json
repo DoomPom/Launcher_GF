@@ -1,8 +1,7 @@
 {
   "profiles": {
     "KartRider": {
-      "commandName": "Project",
-      "workingDirectory": "D:\\app\\TCGAME\\TCGameApps\\kart"
+      "commandName": "Project"
     }
   }
 }

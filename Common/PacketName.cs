@@ -1,5 +1,3 @@
-using System;
-
 namespace KartLauncher.Common
 {
     public enum PacketName : uint
