@@ -1,7 +1,6 @@
+using KartLauncher.Data.Forms;
 using System;
 using System.Windows.Forms;
-using KartLauncher.Data.Forms;
-using  KartLauncher.Data.Forms;
 
 namespace KartLauncher
 {
